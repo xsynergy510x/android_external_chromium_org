@@ -424,7 +424,6 @@ MY_CFLAGS_Debug := \
 	-Wno-ignored-qualifiers \
 	-Wno-type-limits \
 	-Wno-unused-but-set-variable \
-	-Os \
 	-g \
 	-gdwarf-4 \
 	-fdata-sections \
@@ -537,7 +536,6 @@ MY_CFLAGS_Release := \
 	-Wno-ignored-qualifiers \
 	-Wno-type-limits \
 	-Wno-unused-but-set-variable \
-	-Os \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \
